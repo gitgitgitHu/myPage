@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "version": "1.0",
+    "name": "NewTab",
+    "description": "自己的世界",
+    "chrome_url_overrides": {
+        "newtab": "NewTab.html"
+    },
+    "permissions": [
+        "https://www.baidu.com/img/bd_logo1.png?qua=high&where=super",
+        "https://timgsa.baidu.com/timg?size=b9999_10000&imgtype=0&src=http://pic.baike.soso.com/p/20131204/20131204114917-774835459.jpg",
+        "https://timgsa.baidu.com/timg?size=b9999_10000&imgtype=0&src=http%3A%2F%2Fimg2.16pic.com%2F00%2F56%2F07%2F16pic_5607016_s.jpg",
+        "https://timgsa.baidu.com/timg?size=b9999_10000&imgtype=0&src=http%3A%2F%2Fimg.xiami.net%2Fimages%2Fappv5%2Fcommon%2F28357%2F58a303d5d63b9_9vxR_1487078357.jpg",
+        "https://timgsa.baidu.com/timg?size=b9999_10000&imgtype=jpg&er=1&src=http%3A%2F%2Fjfz-erp2.oss-cn-hangzhou.aliyuncs.com%2Fimages%2Fdc_upload%2Fbee0e051e005dde7cdd7e639ad8e5669.png",
+        "https://www.meicanstatic.com/sta/fe/kiwi/demeter-fe/img/logo.b8e0ce2.svg",
+        "https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=172351619,2695901446&fm=26.jpg",
+        "https://timgsa.baidu.com/timg?size=b9999_10000&imgtype=0&src=http%3A%2F%2Fs2.sinaimg.cn%2Fmw690%2F004lDxWVgy6TKH4WylPe1%26690"
+    ]
+}

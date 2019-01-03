@@ -1,0 +1,98 @@
+body {
+    background-size:100%;
+    background-image: url('image/img1.jpg');
+    margin: 0;
+}
+.header {
+    padding: 50px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: #ffffff45;
+    padding-top: 6%;
+    flex-wrap: wrap;
+}
+#timer {
+    width: 100%;
+    color: #f3f3f3;
+    font-size: 80px;
+}
+#days {
+    width: 100%;
+    color: #f3f3f3;
+    padding: 5px;
+    font-size: 20px;
+}
+#addBtn {
+    width: 100%;
+    height: 100%;
+    background: #eaeaeaa8;
+    color: #5a5a5a;
+    font-size: 50px;
+    text-align: center;
+}
+.btn {
+    cursor: pointer;
+    width: 102px;
+    height: 38px;
+    border: 0;
+    background-color: #38f;
+    font-size: 16px;
+    color: white;
+    box-shadow: none;
+    float: left;
+}
+.inp {
+    float: left;
+    height: 34px;
+    width: 450px;
+    font-size: 16px;
+    padding: 0 10px;
+}
+.list {
+    width: 100%;
+    background: #ffffff45;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.list-row {
+    width: 700px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.list-item {
+    width: 70px;
+    height: 70px;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 30px 30px 0;
+}
+.list-item:hover::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #0000002b;
+    position: absolute;
+    top: 0px;
+}
+a {
+    text-decoration: none;
+}
+.list-img{
+    width: 100%;
+    height: 100%;
+}
+.div-img {
+    width: 100%;
+    height: 100%;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    line-height: 70px;
+    background: aliceblue;
+}
